@@ -58,6 +58,12 @@ min-height:470px;
 </div>
 </div>
 <div class="text-main">
+ {% if section.settings.heading != blank %}
+       <h2 class="tit">{{ section.settings.heading }}</h2>
+ {% endif %}}
+  {% if section.settings.text != blank %}
+     <div class="rich-new">{{ section.settings.text }}</div>
+ {% endif %}}
 </div>
 
 
@@ -77,7 +83,19 @@ min-height:470px;
   "id": "video-ar",
   "label": "Video URL mp4",
   "default": "mp4 Video URL"
-}
+},
+     {
+    "type": "inline_richtext",
+    "id": "heading",
+    "default": "Talk about your brand",
+    "label": "Heading"
+  },
+      {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+          "label": "Rich Text"
+        }
 
     ],
 	"presets": [
