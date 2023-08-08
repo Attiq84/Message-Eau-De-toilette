@@ -42,10 +42,8 @@ min-height:470px;
      }
   }
 </style>
-<div class="secti-video-text">
-
-
-  
+<div class="secti-video-text"> 
+      <div class="video-section">
 <div class="wrapper-vid-ar">
 <div style="text-align:center;">
 {% if section.settings.video-ar != blank %}
@@ -56,6 +54,7 @@ min-height:470px;
   </div>
   {% endif %}
 </div>
+        </div> 
 </div>
 <div class="text-main">
  {% if section.settings.heading != blank %}
@@ -64,14 +63,7 @@ min-height:470px;
   {% if section.settings.text != blank %}
      <div class="rich-new">{{ section.settings.text }}</div>
  {% endif %}
-</div>
-
-
-
-
-
-
-  
+</div>  
 </div>
 {% schema %}
   {
