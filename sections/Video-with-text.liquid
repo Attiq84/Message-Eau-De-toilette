@@ -80,6 +80,7 @@ min-height:470px;
      }
   }
 </style>
+
 <div class="wrapper-vid-ar">
 <div style="text-align:center;">
 {% if section.settings.video-ar != blank %}
@@ -87,25 +88,12 @@ min-height:470px;
  <video class="video-height-ar" style="display:block; margin: 0 auto; width:100%; " loop autoplay muted playsinline  data-wf-ignore="true" data-object-fit="cover">
     <source src="{{ section.settings.video-ar }}" data-wf-ignore="true" type="video/mp4" />
    </video>
-<div class="pos-abs-ar">
-  <div class="wrapper-text-ar-vid">
-    <div class="title-vid-ar">
-{{ section.settings.title-ar }}
-    </div>
-    <div class="description-vid-ar">
-    <p>  {{ section.settings.description-ar }}</p>
-    </div>
-    <div class="btn-vid">
-            <a href="{{ section.settings.link }}" class="button button--primary">
-              {{ section.settings.link_text }}
-            </a>
-          </div>
-  </div>
-</div>
+
   </div>
   {% endif %}
 </div>
 </div>
+
 {% schema %}
   {
     "name": "Video with Text",
