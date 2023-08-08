@@ -42,11 +42,7 @@
     "2802d047-aa14-45ca-a57e-d03623cc644b": {
       "type": "Video-with-text",
       "settings": {
-        "video-ar": "mp4 Video URL",
-        "title-ar": "Premium Quality",
-        "description-ar": "Premium Quality",
-        "link": "",
-        "link_text": "Button"
+        "video-ar": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/100b95f8856049678961dc771c356f27.mp4"
       }
     }
   },
