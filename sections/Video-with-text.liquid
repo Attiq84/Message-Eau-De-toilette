@@ -42,31 +42,31 @@ min-height:470px;
      }
   }
 </style>
-<div class="page-width">
-<div class="secti-video-text"> 
-      <div class="video-section">
-<div class="wrapper-vid-ar">
-<div style="text-align:center;">
-{% if section.settings.video-ar != blank %}
-  <div class="vid-wrapper-ar" style="text-align:center;">
- <video class="video-height-ar" style="display:block; margin: 0 auto; width:100%; " loop autoplay muted playsinline  data-wf-ignore="true" data-object-fit="cover">
-    <source src="{{ section.settings.video-ar }}" data-wf-ignore="true" type="video/mp4" />
-   </video>
-  </div>
-  {% endif %}
-</div>
-        </div> 
-</div>
-<div class="text-main">
- {% if section.settings.heading != blank %}
-       <h2 class="tit">{{ section.settings.heading }}</h2>
- {% endif %}
-  {% if section.settings.text != blank %}
-     <div class="rich-new">{{ section.settings.text }}</div>
- {% endif %}
-</div>  
-</div>
-</div>
+ <div class="page-width">
+   <div class="secti-video-text"> 
+     <div class="video-section">
+        <div class="wrapper-vid-ar">
+          <div style="text-align:center;">
+            {% if section.settings.video-ar != blank %}
+              <div class="vid-wrapper-ar" style="text-align:center;">
+               <video class="video-height-ar" style="display:block; margin: 0 auto; width:100%; " loop autoplay muted playsinline  data-wf-ignore="true" data-object-fit="cover">
+                 <source src="{{ section.settings.video-ar }}" data-wf-ignore="true" type="video/mp4" />
+               </video>
+              </div>
+            {% endif %}
+           </div>
+         </div> 
+     </div>
+      <div class="text-main">
+          {% if section.settings.heading != blank %}
+            <h2 class="tit">{{ section.settings.heading }}</h2>
+          {% endif %}
+          {% if section.settings.text != blank %}
+             <div class="rich-new">{{ section.settings.text }}</div>
+          {% endif %}
+      </div>  
+   </div>
+ </div>
 {% schema %}
   {
     "name": "Video with Text",
