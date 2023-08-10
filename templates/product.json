@@ -47,50 +47,6 @@
         "padding_bottom": 12
       }
     },
-    "7f85fc63-3e74-4b22-a0b7-e17d5a9b479f": {
-      "type": "multirow",
-      "blocks": {
-        "template--20355754688794__7f85fc63-3e74-4b22-a0b7-e17d5a9b479f-row-1": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "template--20355754688794__7f85fc63-3e74-4b22-a0b7-e17d5a9b479f-row-2": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20355754688794__7f85fc63-3e74-4b22-a0b7-e17d5a9b479f-row-1",
-        "template--20355754688794__7f85fc63-3e74-4b22-a0b7-e17d5a9b479f-row-2"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -109,11 +65,67 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "de61eccb-80e4-4ac0-8756-1ff5ce991655": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20355754688794__de61eccb-80e4-4ac0-8756-1ff5ce991655-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1_copy_5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20355754688794__de61eccb-80e4-4ac0-8756-1ff5ce991655-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1_copy_3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20355754688794__de61eccb-80e4-4ac0-8756-1ff5ce991655-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20230304_104835.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20355754688794__de61eccb-80e4-4ac0-8756-1ff5ce991655-column-1",
+        "template--20355754688794__de61eccb-80e4-4ac0-8756-1ff5ce991655-column-2",
+        "template--20355754688794__de61eccb-80e4-4ac0-8756-1ff5ce991655-column-3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "7f85fc63-3e74-4b22-a0b7-e17d5a9b479f",
-    "related-products"
+    "related-products",
+    "de61eccb-80e4-4ac0-8756-1ff5ce991655"
   ]
 }
