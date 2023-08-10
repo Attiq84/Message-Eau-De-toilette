@@ -1606,3 +1606,7 @@ span.edu-to {
     letter-spacing: 0px;
     font-weight: 600;
 }
+span.price-item.price-item--regular {
+    font-size: 20px;
+    font-weight: 600;
+}
