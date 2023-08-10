@@ -5,6 +5,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "489c0abb-5378-4dc4-9c71-929cfe4e39fd": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
         "5f35408e-8f27-40b4-b9bf-ef15efa56043": {
           "type": "link_list",
           "settings": {
@@ -21,6 +27,7 @@
         }
       },
       "block_order": [
+        "489c0abb-5378-4dc4-9c71-929cfe4e39fd",
         "5f35408e-8f27-40b4-b9bf-ef15efa56043",
         "f906bfdc-b39c-4ed3-b3d5-54ec24edc587"
       ],
