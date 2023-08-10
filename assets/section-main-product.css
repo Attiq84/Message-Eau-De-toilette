@@ -1601,3 +1601,8 @@ a.product__text {
 .product__title h1 {
     font-size: 27px;
 }
+span.edu-to {
+    font-size: 11px;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
