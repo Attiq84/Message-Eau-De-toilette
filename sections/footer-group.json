@@ -8,15 +8,15 @@
         "5f35408e-8f27-40b4-b9bf-ef15efa56043": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "ABOUT",
             "menu": "navigate"
           }
         },
         "f906bfdc-b39c-4ed3-b3d5-54ec24edc587": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "navigate"
+            "heading": "POLICIES",
+            "menu": ""
           }
         }
       },
